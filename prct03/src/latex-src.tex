@@ -1,7 +1,25 @@
-\documentclass[a4paper,10pt]{letter}
+\documentclass[a4paper,12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \begin{document}
+\title{Título del artículo}
+\author{Nombre y Apellido \\
+	Técnicas Experimentales~\footnote{Universidad de La Laguna}
+	}
+\date{\today}
+\maketitle
+\begin{abstract}
+  En \LaTeX{}~\cite{Lam:86} es sencillo escribir expresiones
+  matemáticas como $a=\sum_{i=1}^{10} {x_i}^{3}$
+  y deben ser escritas entre dos símbolos \$.
+  Los superíndices se obtienen con el símbolo \^{}, y
+  los subíndices con el símbolo \_.
+  Por ejemplo: $x^2\times y ^{\alpha + \beta}$.
+  También se pueden escribir fórmulas centradas:
+  \[h^2=a^2 + b^2 \]
+\end{abstract}
+
+\section{Primera sección}
  Si simplemente se desea escribir texto normal en LaTeX,
  sin complicadas f\'ormulas matem\'aticas o efectos especiales
  como cambios de fuente, entonces simplemente tiene que escribir
@@ -23,5 +41,13 @@ utilizar el comando $\\par$.
  quión para la sepración de śilabas, mientras que se utilizan
  tres guiones seguidos para producir un guión de los que se usan
  como signo de puntuación --- como en esta oración.
- 
+ \bigskip
+ \begin{tabular}{|l|c|c|}
+  \hline
+    Nombre & Edad & Nota \\ \hline
+    Pepe   &   24 &   10 \\ \hline
+    Juan   &   19 &    8 \\ \hline
+    Luis   &   21 &    9 \\ \hline
+ \end{tabular}
+
 \end{document}
