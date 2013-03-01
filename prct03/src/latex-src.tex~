@@ -41,9 +41,16 @@ utilizar el comando $\\par$.
  quión para la sepración de śilabas, mientras que se utilizan
  tres guiones seguidos para producir un guión de los que se usan
  como signo de puntuación --- como en esta oración.
- \bigskip
+ \bigskip 
+ \begin{tabular}{|l|c|c|}
+  \hline
+    Nombre & Edad & Nota \\ \hline
+    Pepe   &   24 &   10 \\ \hline
+    Juan   &   19 &    8 \\ \hline
+    Luis   &   21 &    9 \\ \hline
+ \end{tabular}
  \begin{thebibliography}{00}
-  \bibitem{lam:86}
+  \bibitem{Lam:86}
     Lamport, Leslie.
     TLA in pictures.
     \emph{IEEE Transactions on Software Engineering},
